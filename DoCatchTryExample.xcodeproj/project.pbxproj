@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F845A58C2020840900DCE1E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F845A58B2020840900DCE1E1 /* AppDelegate.swift */; };
-		F845A58E2020840900DCE1E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F845A58D2020840900DCE1E1 /* ViewController.swift */; };
+		F845A58E2020840900DCE1E1 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F845A58D2020840900DCE1E1 /* LoginController.swift */; };
 		F845A5912020840900DCE1E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F845A58F2020840900DCE1E1 /* Main.storyboard */; };
 		F845A5942020840900DCE1E1 /* DoCatchTryExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F845A5922020840900DCE1E1 /* DoCatchTryExample.xcdatamodeld */; };
 		F845A5962020840900DCE1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F845A5952020840900DCE1E1 /* Assets.xcassets */; };
 		F845A5992020840900DCE1E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F845A5972020840900DCE1E1 /* LaunchScreen.storyboard */; };
 		F845A5A42020840900DCE1E1 /* DoCatchTryExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F845A5A32020840900DCE1E1 /* DoCatchTryExampleTests.swift */; };
+		F845A5AF20208F6700DCE1E1 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F845A5AE20208F6700DCE1E1 /* ExtensionString.swift */; };
+		F845A5B32020910F00DCE1E1 /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F845A5B22020910F00DCE1E1 /* AlertMessage.swift */; };
+		F8A2B08120211C35002382E8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A2B08020211C35002382E8 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +32,7 @@
 /* Begin PBXFileReference section */
 		F845A5882020840900DCE1E1 /* DoCatchTryExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoCatchTryExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F845A58B2020840900DCE1E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F845A58D2020840900DCE1E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F845A58D2020840900DCE1E1 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		F845A5902020840900DCE1E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F845A5932020840900DCE1E1 /* DoCatchTryExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoCatchTryExample.xcdatamodel; sourceTree = "<group>"; };
 		F845A5952020840900DCE1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +41,9 @@
 		F845A59F2020840900DCE1E1 /* DoCatchTryExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoCatchTryExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F845A5A32020840900DCE1E1 /* DoCatchTryExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryExampleTests.swift; sourceTree = "<group>"; };
 		F845A5A52020840900DCE1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F845A5AE20208F6700DCE1E1 /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		F845A5B22020910F00DCE1E1 /* AlertMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
+		F8A2B08020211C35002382E8 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +86,14 @@
 			isa = PBXGroup;
 			children = (
 				F845A58B2020840900DCE1E1 /* AppDelegate.swift */,
-				F845A58D2020840900DCE1E1 /* ViewController.swift */,
+				F845A58D2020840900DCE1E1 /* LoginController.swift */,
+				F8A2B08020211C35002382E8 /* HomeController.swift */,
 				F845A58F2020840900DCE1E1 /* Main.storyboard */,
 				F845A5952020840900DCE1E1 /* Assets.xcassets */,
 				F845A5972020840900DCE1E1 /* LaunchScreen.storyboard */,
 				F845A59A2020840900DCE1E1 /* Info.plist */,
 				F845A5922020840900DCE1E1 /* DoCatchTryExample.xcdatamodeld */,
+				F845A5B4202091F300DCE1E1 /* Helper */,
 			);
 			path = DoCatchTryExample;
 			sourceTree = "<group>";
@@ -97,6 +105,15 @@
 				F845A5A52020840900DCE1E1 /* Info.plist */,
 			);
 			path = DoCatchTryExampleTests;
+			sourceTree = "<group>";
+		};
+		F845A5B4202091F300DCE1E1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F845A5AE20208F6700DCE1E1 /* ExtensionString.swift */,
+				F845A5B22020910F00DCE1E1 /* AlertMessage.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F845A58E2020840900DCE1E1 /* ViewController.swift in Sources */,
+				F845A5AF20208F6700DCE1E1 /* ExtensionString.swift in Sources */,
+				F845A5B32020910F00DCE1E1 /* AlertMessage.swift in Sources */,
+				F845A58E2020840900DCE1E1 /* LoginController.swift in Sources */,
 				F845A5942020840900DCE1E1 /* DoCatchTryExample.xcdatamodeld in Sources */,
 				F845A58C2020840900DCE1E1 /* AppDelegate.swift in Sources */,
+				F8A2B08120211C35002382E8 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P5WX5M66J;
 				INFOPLIST_FILE = DoCatchTryExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appamu.DoCatchTryExample;
@@ -372,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P5WX5M66J;
 				INFOPLIST_FILE = DoCatchTryExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appamu.DoCatchTryExample;
